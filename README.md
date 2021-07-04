@@ -6,7 +6,7 @@ To rename extension of files in directory from source extension to destination e
  ### Usage:
  
 ```
-python ./convert_extenstion.py [options] path [source_extension] [destination_extension] 
+python ./rename_extension.py [options] path [source_extension] [destination_extension] 
 ```
 
 The program accepts the following 2 option flags:
