@@ -2,7 +2,7 @@
 
 ## Rename File Extension
 
-To rename extension of files in directory from source extension to destination extension run the the `convert_extension.py` script.
+To rename extension of files in directory from source extension to destination extension run the `convert_extension.py` script.
  ### Usage:
  
 ```
@@ -26,4 +26,25 @@ python ./convert_extenstion.py --all ./folderA txt
 - Remove extension from all '.txt' files inside dir 'folderA'
 ```
 python ./convert_extenstion.py --remove ./folderA txt
+```
+---
+## Convert .xls to .pdf
+
+To convert all .xls files in a directory to .pdf run the `xls_2_pdf.py` script.
+
+**NOTE:** Requires `win32com` package.
+ ### Usage:
+ 
+```
+python ./xls_2_pdf.py.py [options] path
+```
+
+The program accepts the following option flags:
+ - `--landscape` Change orientation to landscape (default is potrait)
+
+### Examples:
+
+```
+python ./xls_2_pdf.py.py --landscape ./
+python ./xls_2_pdf.py.py ./
 ```
