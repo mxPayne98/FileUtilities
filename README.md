@@ -37,7 +37,7 @@ To convert all .xls files in a directory to .pdf run the `xls_2_pdf.py` script.
  ### Usage:
  
 ```
-python ./xls_2_pdf.py.py [options] path
+python ./xls_2_pdf.py [options] path
 ```
 
 The program accepts the following option flags:
@@ -46,6 +46,6 @@ The program accepts the following option flags:
 ### Examples:
 
 ```
-python ./xls_2_pdf.py.py --landscape ./
-python ./xls_2_pdf.py.py ./
+python ./xls_2_pdf.py --landscape ./
+python ./xls_2_pdf.py ./
 ```
